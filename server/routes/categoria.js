@@ -21,7 +21,7 @@ app.get('/categoria', verificaToken, (req, res) => {
             res.json({
                 ok: true,
                 categorias
-            })
+            });
         });
 });
 
